@@ -11,7 +11,6 @@ data = pickle.load(model_file)
 model = data["model"]
 scaler = data["scaler"]
 
-
 # API endpoints
 @app.route("/")
 def home():
