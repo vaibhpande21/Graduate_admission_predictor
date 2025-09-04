@@ -189,8 +189,8 @@ graduate_admission_predictor/
 
 2. **Create a virtual environment & install dependencies**
 ```bash
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv MLOps_env
+source MLOps_env/bin/activate
 pip install -r requirements.txt
 ```
 3. **Run Flask API**
