@@ -117,7 +117,7 @@ The goal was to build a reliable ML model and deploy it as a production-ready AP
    ```
   ---
 
-  ## 🐳 Containerization
+## 🐳 Containerization
 - **Dockerfile:**
   - Installs dependencies.
   - Runs Flask API and Streamlit app in container.
@@ -148,12 +148,10 @@ The goal was to build a reliable ML model and deploy it as a production-ready AP
 
 ---
 
-## ✅ API Testing on AWS (Flask Web API)
+## ✅ Model Deployment Verification
 
-The model was deployed successfully on **AWS ECS Fargate**.  
-The Flask Web API exposes a `/predict` endpoint where users can send a **POST request** with student details (GRE, TOEFL, SOP, LOR, CGPA, Research, etc.) to get admission predictions.
-
-The deployment was verified using **Postman**, as shown below:
+The model was successfully deployed on **AWS ECS Fargate**.  
+It was tested using **Postman** with the live link provided by AWS, and the `/predict` endpoint responded correctly, confirming that the deployment works as expected.
 
 ![Postman API Test](postman.png)
 
@@ -184,10 +182,10 @@ graduate_admission_predictor/
 ## 🚀 How to Run Locally
 
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/Graduate_admission_predictor.git
-   cd Graduate_admission_predictor
-   ```
+ ```bash
+ git clone https://github.com/vaibhpande21/Graduate_admission_predictor.git
+ cd Graduate_admission_predictor
+ ```
 
 2. **Create a virtual environment & install dependencies**
 ```bash
